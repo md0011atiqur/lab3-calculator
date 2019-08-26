@@ -1,0 +1,4 @@
+mkdir calculator  //new directory open as calculator and start a new project with java
+git init //git initialze
+
+
