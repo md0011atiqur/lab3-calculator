@@ -11,7 +11,7 @@ public class calculator {
         System.out.print("Enter Second numbers: ");
         double second = reader.nextDouble();
 
-        System.out.print("Enter operator (+, -): ");
+        System.out.print("Enter operator (+): ");
         char operator = reader.next().charAt(0);
 
         double result;
@@ -20,10 +20,6 @@ public class calculator {
         {
             case '+':
                 result = first + second;
-                break;
-                
-            case '-':
-                result = first - second;
                 break;
 
             default:
