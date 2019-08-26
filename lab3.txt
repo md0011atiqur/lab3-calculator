@@ -1,4 +1,21 @@
 mkdir calculator  //new directory open as calculator and start a new project with java
 git init //git initialze
+$ git checkout -b subtraction  //create branch
+$ git checkout master  //switch from present brach to master
+$ git branch  //show branch in project
+$ git remote add origin https://github.com/md0011atiqur/lab3-calculator.git //remote location
+$ git push -u origin master //push master data to github
+$ git status // status check
+$ git add . //project file move to staging area
+$ git commit -m "now java program work with addition and subtruction" //project file move to repository area
+$ git merge subtraction //master brach and subtruction merge
+
+
+
+
+
+
+
+
 
 
